@@ -8,7 +8,7 @@ public class PutPost
 {
 
 
-baseURI = "API_URL";
+baseURI = "https://reqres.in/api";
 RequestSpecification request = RestAssured.given();
 request.header("Key1", "Value1");
 request.header("Key2", ""+Value2+""); //If value is getting capture from other variable
