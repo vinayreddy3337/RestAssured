@@ -1,5 +1,6 @@
 public class vinay2
 {
+public static void main(String[] args){
 int temp, size;
   int array[]= {10,20,30,50,90};
   size=array.length;
